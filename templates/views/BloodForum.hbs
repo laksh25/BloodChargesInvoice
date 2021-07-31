@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    <div>
+        <div class="App-header">
+            <div class="Form-div">
+                <h1 class="Header">Blood Test Charges Forum </h1>
+
+                <form method="POST" action ="/BloodForum">
+
+                    <input type="text" name="CBC" placeholder="Enter CBC Charges" required />
+
+                    <input type="text" name="Platelet" placeholder="Enter Platelet Count Charges" required />
+
+                    <input type="text" name="Bilirubin" placeholder="Enter Bilirubin Charges" required />
+
+                    <input type="submit" value="Submit" />
+
+                </form>
+
+            </div>
+        </div>
+
+</body>
+{{>Footer}}
+
+</html>
